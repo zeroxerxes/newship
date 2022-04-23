@@ -23,7 +23,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/62538bad7b967b117989f02c/1g0b5j8g1';
+s1.src='https://embed.tawk.to/62641efe7b967b11798c27a3/1g1bhi4q7';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
@@ -181,18 +181,18 @@ body {
 
             <td width="45%"><div align="left" class="style3">
 
-              <?php echo $ship_name; ?>
+              <?php echo $Shipper_Name; ?>
             </div></td>
 
           </tr>
 
           <tr>
 
-            <td><div align="left" class="style3">Shipper Phone : </div></td>
+            <td><div align="left" class="style3">Shipper Shippers_Contact : </div></td>
 
             <td><div align="left" class="style3">
 
-              <?php echo $phone; ?>
+              <?php echo $Shippers_Contact; ?>
             </div></td>
           </tr>
 
@@ -201,7 +201,7 @@ body {
             <td><div align="left" class="style3">Shipper Address : </div></td>
 
             <td><div align="left" class="style3">
-			<?php echo $s_add; ?>
+			<?php echo $Shipper_addresss; ?>
 			</div></td>
           </tr>
         </tbody></table>
@@ -217,16 +217,16 @@ body {
 
             <td width="55%" class="style3"><div align="left">Receiver Name : </div></td>
 
-            <td width="45%" class="style3"><div align="left"><?php echo $rev_name; ?></div></td>
+            <td width="45%" class="style3"><div align="left"><?php echo $Receiver_Name; ?></div></td>
 
           </tr>
 
           <tr>
 
-            <td class="style3"><div align="left">Receiver Phone : </div></td>
+            <td class="style3"><div align="left">Receiver Shippers_Contact : </div></td>
 
             <td class="style3"><div align="left">
-			<?php echo $r_phone; ?>
+			<?php echo $Receiver_Shippers_Contact; ?>
             </div></td>
           </tr>
 
@@ -235,7 +235,7 @@ body {
             <td class="style3"><div align="left">Receiver Address : </div></td>
 
             <td class="style3"><div align="left">
-			<?php echo $r_add; ?>
+			<?php echo $Receiver_address; ?>
             </div></td>
           </tr>
         </tbody></table>
@@ -275,7 +275,7 @@ body {
 
       <td class="style3" bgcolor="#F3F3F3" align="right">Invoice no  :</td>
 
-      <td class="style3" bgcolor="#FFFFFF"><?php echo $invice_no; ?>&nbsp;</td>
+      <td class="style3" bgcolor="#FFFFFF"><?php echo $Departure_Time; ?>&nbsp;</td>
     </tr>
 
     <tr>
@@ -287,9 +287,9 @@ body {
 
     <tr>
 
-      <td class="style3" bgcolor="#F3F3F3" align="right">Total freight : </td>
+      <td class="style3" bgcolor="#F3F3F3" align="right">Total Arrival_Time : </td>
 
-      <td class="style3" bgcolor="#FFFFFF"><?php echo $freight; ?>&nbsp;Rs.</td>
+      <td class="style3" bgcolor="#FFFFFF"><?php echo $Arrival_Time; ?>&nbsp;Rs.</td>
     </tr>
 
     <tr>
@@ -305,8 +305,8 @@ body {
 
       <td class="style3" bgcolor="#FFFFFF">
 
-        <?php echo $pick_date; ?> -<span class="gentxt">
-<?php echo $pick_time; ?>
+        <?php echo $Regisstration_D_T; ?> -<span class="gentxt">
+<?php echo $Registration_Time; ?>
         </span> </td> 
     </tr> 
 

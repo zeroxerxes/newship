@@ -31,18 +31,18 @@ SET time_zone = "+00:00";
 CREATE TABLE `tbl_courier` (
   `cid` int(10) NOT NULL,
   `cons_no` varchar(20) NOT NULL,
-  `ship_name` varchar(100) NOT NULL,
+  `Shipper_Name` varchar(100) NOT NULL,
   `phone` varchar(12) NOT NULL,
-  `s_add` varchar(200) NOT NULL,
-  `rev_name` varchar(100) NOT NULL,
-  `r_phone` varchar(12) NOT NULL,
-  `r_add` varchar(200) NOT NULL,
+  `ShippeReceiver_addressress` varchar(200) NOT NULL,
+  `Receiver_Name` varchar(100) NOT NULL,
+  `Receiver_Phone` varchar(12) NOT NULL,
+  `Receiver_address` varchar(200) NOT NULL,
   `type` varchar(40) NOT NULL,
   `weight` double NOT NULL,
-  `invice_no` varchar(20) NOT NULL,
+  `Departure_Time` varchar(20) NOT NULL,
   `qty` int(10) NOT NULL,
   `book_mode` varchar(20) NOT NULL,
-  `freight` double NOT NULL,
+  `Freight` double NOT NULL,
   `mode` varchar(20) NOT NULL,
   `pick_date` varchar(20) NOT NULL,
   `pick_time` varchar(10) NOT NULL,
@@ -55,7 +55,7 @@ CREATE TABLE `tbl_courier` (
 -- Dumping data for table `tbl_courier`
 --
 
-INSERT INTO `tbl_courier` (`cid`, `cons_no`, `ship_name`, `phone`, `s_add`, `rev_name`, `r_phone`, `r_add`, `type`, `weight`, `invice_no`, `qty`, `book_mode`, `freight`, `mode`, `pick_date`, `pick_time`, `status`, `comments`, `book_date`) VALUES
+INSERT INTO `tbl_courier` (`cid`, `cons_no`, `Shipper_Name`, `phone`, `ShippeReceiver_addressress`, `Receiver_Name`, `Receiver_Phone`, `Receiver_address`, `type`, `weight`, `Departure_Time`, `qty`, `book_mode`, `Freight`, `mode`, `pick_date`, `pick_time`, `status`, `comments`, `book_date`) VALUES
 (1, 'M22P7KHM', 'Tousif Khan', '020 253623', 's sd sdsd', 'Rizwan Ahmed', '020 88552', 'sd sd s', 'Parcel', 20, '252525', 12, 'TBB', 240, 'Road', '29/04/2018', '12', 'Delivered', 'ds ds d', '2018-01-26'),
 (2, 'QIWWGIQP', 'Asif khan', '020 253623', 'shani peth', 'munna bhai', '020 88552', 'asdas das d', 'Documents', 20, '252525', 12, 'TBB', 240, 'Train', '29/03/2018', '4', 'Delivered', 'Plz deliver it', '2018-02-28'),
 (3, 'Q906F73L', 'Amol sarode', '9484848445', 'metha nagar, bhusawal', 'sunil pal', '8585425412', 'balliram peth', 'Documents', 12, '239098', 12, 'ToPay', 200, 'Air', '26/01/2018', '4', 'Delivered', 'Thanks', '2018-01-20'),
@@ -156,7 +156,7 @@ CREATE TABLE `tbl_quote` (
   `email` varchar(50) NOT NULL,
   `source` varchar(20) NOT NULL,
   `destination` varchar(20) NOT NULL,
-  `freighttype` varchar(20) NOT NULL,
+  `Freighttype` varchar(20) NOT NULL,
   `distance` int(10) NOT NULL,
   `weight` int(10) NOT NULL,
   `parceltype` varchar(50) NOT NULL,

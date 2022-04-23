@@ -12,7 +12,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/62538bad7b967b117989f02c/1g0b5j8g1';
+s1.src='https://embed.tawk.to/62641efe7b967b11798c27a3/1g1bhi4q7';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
@@ -369,9 +369,9 @@ function getSelected(opt)
                 </td>
           </tr>
           <tr>
-            <td class="TrackMediumBlue" align="right">Phone   :</td>
+            <td class="TrackMediumBlue" align="right">Shippers_Contact   :</td>
             <td>&nbsp;</td>
-            <td><input name="Shipperphone" id="Shipperphone" maxlength="100" size="40" type="TEXT"></td>
+            <td><input name="ShipperShippers_Contact" id="ShipperShippers_Contact" maxlength="100" size="40" type="TEXT"></td>
           </tr>
           <tr>
             <td class="TrackMediumBlue" align="right">Address   :</td>
@@ -395,9 +395,9 @@ function getSelected(opt)
                 <span class="REDLink">*</span></td>
           </tr>
           <tr>
-            <td class="TrackMediumBlue" align="right">Phone : </td>
+            <td class="TrackMediumBlue" align="right">Shippers_Contact : </td>
             <td>&nbsp;</td>
-            <td><input name="Receiverphone" id="Receiverphone" maxlength="100" size="40" type="TEXT"></td>
+            <td><input name="ReceiverShippers_Contact" id="ReceiverShippers_Contact" maxlength="100" size="40" type="TEXT"></td>
           </tr>
           <tr>
             <td class="TrackMediumBlue" align="right"> Address: </td>
@@ -443,7 +443,7 @@ function getSelected(opt)
           <tr>
             <td class="TrackMediumBlue" align="right">Take Of Time</td>
             <td>&nbsp;</td>
-            <td><input name="Invoiceno" id="Invoiceno" size="60" maxlength="20" onKeyUp="check_phone('Invoiceno')" type="TEXT"></td>
+            <td><input name="Invoiceno" id="Invoiceno" size="60" maxlength="20" onKeyUp="check_Shippers_Contact('Invoiceno')" type="TEXT"></td>
           </tr>
           <tr>
             <td class="TrackMediumBlue" align="right">Qnty  :</td>
@@ -462,7 +462,7 @@ function getSelected(opt)
           <tr>
             <td class="TrackMediumBlue" align="right">Expected Deliver Date & Time </td>
             <td>&nbsp;</td>
-            <td><input type="text"id="Totalfreight" size="255" maxlength="255" name="Totalfreight"></td>
+            <td><input type="text"id="TotalArrival_Time" size="255" maxlength="255" name="TotalArrival_Time"></td>
           </tr>
           <tr>
             <td class="TrackMediumBlue" align="right">Mode : </td>
@@ -509,7 +509,7 @@ function getSelected(opt)
           <tr>
             <td align="right">&nbsp;</td>
             <td>&nbsp;</td>
-            <td><input name="Submit" type="submit" onClick="MM_validateForm('Shippername','','R','Shipperphone','','R','Receivername','','R','Receiverphone','','R','ConsignmentNo','','R','Weight','','R','Invoiceno','','R','Qnty','','RisNum','Totalfreight','','R','Pickuptime','','R','Shipperaddress','','R','Comments','','R','Weight','','RisNum','Totalfreight','','R','reglocation','','R',);return document.MM_returnValue" value="Add Courier"></td>
+            <td><input name="Submit" type="submit" onClick="MM_validateForm('Shippername','','R','ShipperShippers_Contact','','R','Receivername','','R','ReceiverShippers_Contact','','R','ConsignmentNo','','R','Weight','','R','Invoiceno','','R','Qnty','','RisNum','TotalArrival_Time','','R','Pickuptime','','R','Shipperaddress','','R','Comments','','R','Weight','','RisNum','TotalArrival_Time','','R','reglocation','','R',);return document.MM_returnValue" value="Add Courier"></td>
           </tr>
         </tbody></table></td>
       </tr>

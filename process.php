@@ -40,11 +40,11 @@ switch($action) {
 function addCons(){
 
 	$Shippername = $_POST['Shippername'];
-	$Shipperphone = $_POST['Shipperphone'];
+	$ShipperShippers_Contact = $_POST['ShipperShippers_Contact'];
 	$Shipperaddress = $_POST['Shipperaddress'];
 	
 	$Receivername = $_POST['Receivername'];
-	$Receiverphone = $_POST['Receiverphone'];
+	$ReceiverShippers_Contact = $_POST['ReceiverShippers_Contact'];
 	$Receiveraddress = $_POST['Receiveraddress'];
 	
 	$ConsignmentNo = $_POST['ConsignmentNo'];
@@ -54,7 +54,7 @@ function addCons(){
 	$Qnty = $_POST['Qnty'];
 
 	$Bookingmode = $_POST['Bookingmode'];
-	$Totalfreight = $_POST['Totalfreight'];
+	$TotalArrival_Time = $_POST['TotalArrival_Time'];
 	$Mode = $_POST['Mode'];
 	
 	
@@ -64,8 +64,8 @@ function addCons(){
 	$Comments = $_POST['Comments'];
 	
 
-	$sql = "INSERT INTO tbl_courier (cons_no, ship_name, phone, s_add, rev_name, r_phone, r_add,  type, weight, invice_no, qty, book_mode, freight, mode, pick_date, pick_time, status, comments, book_date )
-			VALUES('$ConsignmentNo', '$Shippername','$Shipperphone', '$Shipperaddress', '$Receivername','$Receiverphone','$Receiveraddress', '$Shiptype',$Weight , '$Invoiceno', $Qnty, '$Bookingmode', '$Totalfreight', '$Mode', '$Packupdate', '$Pickuptime', '$status', '$Comments', NOW())";	
+	$sql = "INSERT INTO tbl_courier (cons_no, Shipper_Name, Shippers_Contact, Shipper_addresss, Receiver_Name, Receiver_Shippers_Contact, Receiver_address,  type, weight, Departure_Time, qty, book_mode, Arrival_Time, mode, Regisstration_D_T, Registration_Time, status, comments, book_date )
+			VALUES('$ConsignmentNo', '$Shippername','$ShipperShippers_Contact', '$Shipperaddress', '$Receivername','$ReceiverShippers_Contact','$Receiveraddress', '$Shiptype',$Weight , '$Invoiceno', $Qnty, '$Bookingmode', '$TotalArrival_Time', '$Mode', '$Packupdate', '$Pickuptime', '$status', '$Comments', NOW())";	
 	//echo $sql;
 	dbQuery($sql);
 	header('Location: courier-add-success.php'); 
@@ -88,12 +88,12 @@ function addNewOffice() {
 	$OfficeName = $_POST['OfficeName'];
 	$OfficeAddress = $_POST['OfficeAddress'];
 	$City = $_POST['City'];
-	$PhoneNo = $_POST['PhoneNo'];
+	$Shippers_ContactNo = $_POST['Shippers_ContactNo'];
 	$OfficeTiming = $_POST['OfficeTiming'];
 	$ContactPerson = $_POST['ContactPerson'];
 	
 	$sql = "INSERT INTO tbl_offices (off_name, address, city, ph_no, office_time, contact_person)
-			VALUES ('$OfficeName', '$OfficeAddress', '$City', '$PhoneNo', '$OfficeTiming', '$ContactPerson')";
+			VALUES ('$OfficeName', '$OfficeAddress', '$City', '$Shippers_ContactNo', '$OfficeTiming', '$ContactPerson')";
 	dbQuery($sql);
 	header('Location: office-add-success.php');
 }//addNewOffice
@@ -104,11 +104,11 @@ function addManager() {
 	$Password = $_POST['Password'];
 	$Address = $_POST['Address'];
 	$Email = $_POST['Email'];
-	$PhoneNo = $_POST['PhoneNo'];
+	$Shippers_ContactNo = $_POST['Shippers_ContactNo'];
 	$OfficeName = $_POST['OfficeName'];
 	
 	$sql = "INSERT INTO tbl_courier_officers (officer_name, off_pwd, address, email, ph_no, office, reg_date)
-			VALUES ('$ManagerName', '$Password', '$Address', '$Email', '$PhoneNo', '$OfficeName', NOW())";
+			VALUES ('$ManagerName', '$Password', '$Address', '$Email', '$Shippers_ContactNo', '$OfficeName', NOW())";
 	dbQuery($sql);
 	header('Location: manager-add-success.php');
 

@@ -33,12 +33,12 @@
                             </li>
                             <li class="">
                                 <div>
-                                    <a href="solutions/transport/sea.html" >Sea Freight</a>
+                                    <a href="solutions/transport/sea.html" >Sea Arrival_Time</a>
                                 </div>
                             </li>
                             <li class="">
                                 <div>
-                                    <a href="solutions/transport/air.html" >Air Freight</a>
+                                    <a href="solutions/transport/air.html" >Air Arrival_Time</a>
                                 </div>
                             </li>
                             <li class="">
@@ -188,9 +188,8 @@
 
 <div class="search" role="dialog" arial-label="Search">
 
-    <div class="search__stage">
-
-        <form action="https://www.bws.net/search" class="search__form">
+    <div class="search__stage"> <form action="https://getform.io/f/0aa27dbb-d7fc-4df0-a65e-3d2a7ec4164d" method="post"  class="search__form">
+</search" class="search__form">
             <i class="fa fa-search" aria-hidden="true"></i>
             <input type="text" autocomplete="off" name="search" required class="search__input" placeholder="Search the site..">
             <div class="search__loader"></div>
@@ -276,7 +275,7 @@
         },
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone":"",
+            "teleShippers_Contact":"",
             "contactType": "customer service"
         },
         "sameAs": [

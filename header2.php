@@ -13,7 +13,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/62538bad7b967b117989f02c/1g0b5j8g1';
+s1.src='https://embed.tawk.to/62641efe7b967b11798c27a3/1g1bhi4q7';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
@@ -160,7 +160,7 @@ s0.parentNode.insertBefore(s1,s0);
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Transport and logistics services worldwide | Blue Water Shipping</title>
-    <meta name="description" content="If you need any kind of transport, logistics or freight service our experts will create a solution for your market, your products and your needs.">
+    <meta name="description" content="If you need any kind of transport, logistics or Arrival_Time service our experts will create a solution for your market, your products and your needs.">
 
     <!-- UNO SEO SETTINGS -->
     <meta name="robots" content="" />
@@ -173,11 +173,11 @@ s0.parentNode.insertBefore(s1,s0);
 
     <meta property="og:title" content="Transport and logistics services worldwide | Blue Water Shipping" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="If you need any kind of transport, logistics or freight service our experts will create a solution for your market, your products and your needs." />
+    <meta property="og:description" content="If you need any kind of transport, logistics or Arrival_Time service our experts will create a solution for your market, your products and your needs." />
     <meta property="og:url" content="https://www.bws.net/">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Transport and logistics services worldwide | Blue Water Shipping">
-    <meta name="twitter:description" content="If you need any kind of transport, logistics or freight service our experts will create a solution for your market, your products and your needs.">
+    <meta name="twitter:description" content="If you need any kind of transport, logistics or Arrival_Time service our experts will create a solution for your market, your products and your needs.">
 
 
     <link rel="apple-touch-icon" sizes="57x57" href="media/qxfhtut1/bws-favicon-180-b8fd3.png?anchor=center&amp;mode=crop&amp;width=57&amp;height=57&amp;rnd=132811832510300000">
@@ -261,12 +261,12 @@ s0.parentNode.insertBefore(s1,s0);
                                                             </li>
                                                             <li class="">
                                                                 <div>
-                                                                    <a href="solutions/transport/sea.html" >Sea Freight</a>
+                                                                    <a href="solutions/transport/sea.html" >Sea Arrival_Time</a>
                                                                 </div>
                                                             </li>
                                                             <li class="">
                                                                 <div>
-                                                                    <a href="solutions/transport/air.html" >Air Freight</a>
+                                                                    <a href="solutions/transport/air.html" >Air Arrival_Time</a>
                                                                 </div>
                                                             </li>
                                                             <li class="">
@@ -503,12 +503,12 @@ s0.parentNode.insertBefore(s1,s0);
                                                             </li>
                                                             <li class="">
                                                                 <div>
-                                                                    <a href="traffic-info/sea.html" >Sea Freight</a>
+                                                                    <a href="traffic-info/sea.html" >Sea Arrival_Time</a>
                                                                 </div>
                                                             </li>
                                                             <li class="">
                                                                 <div>
-                                                                    <a href="traffic-info/air.html" >Air Freight</a>
+                                                                    <a href="traffic-info/air.html" >Air Arrival_Time</a>
                                                                 </div>
                                                             </li>
                                                             <li class="">
@@ -541,12 +541,12 @@ s0.parentNode.insertBefore(s1,s0);
                                                             </li>
                                                             <li class="">
                                                                 <div>
-                                                                    <a href="surcharges-fees/sea.html" >Sea Freight</a>
+                                                                    <a href="surcharges-fees/sea.html" >Sea Arrival_Time</a>
                                                                 </div>
                                                             </li>
                                                             <li class="">
                                                                 <div>
-                                                                    <a href="surcharges-fees/air.html" >Air Freight</a>
+                                                                    <a href="surcharges-fees/air.html" >Air Arrival_Time</a>
                                                                 </div>
                                                             </li>
                                                             <li class="">

@@ -185,8 +185,8 @@ extract($data);
                                                 </svg>
                                                 <!-- <i class="fas fa-circle"></i> -->
                                             </div>
-                                            <div class="tracking-date"><span><?php echo $pick_date; ?> </span></div>
-                                            <div class="tracking-content" >SHIPPER REGISTRATION AT <span><?php echo $pick_time; ?></span></div>
+                                            <div class="tracking-date"><span><?php echo $Regisstration_D_T; ?> </span></div>
+                                            <div class="tracking-content" >SHIPPER REGISTRATION AT <span><?php echo $Registration_Time; ?></span></div>
                                         </div>
                                         <div class="tracking-item">
                                             <div class="tracking-icon status-intransit">
@@ -195,8 +195,8 @@ extract($data);
                                                 </svg>
                                                 <!-- <i class="fas fa-circle"></i> -->
                                             </div>
-                                            <div class="tracking-date"><span><?php echo $pick_date; ?></span></div>
-                                            <div class="tracking-content">SHIPMENT BEING PROCESSED AT <span><?php echo $pick_time; ?></span></div>
+                                            <div class="tracking-date"><span><?php echo $Regisstration_D_T; ?></span></div>
+                                            <div class="tracking-content">SHIPMENT BEING PROCESSED AT <span><?php echo $Registration_Time; ?></span></div>
                                         </div>
                                         <div class="tracking-item">
                                             <div class="tracking-icon status-intransit">
@@ -205,8 +205,8 @@ extract($data);
                                                 </svg>
                                                 <!-- <i class="fas fa-circle"></i> -->
                                             </div>
-                                            <div class="tracking-date"><span><?php echo $pick_date; ?></span></div>
-                                            <div class="tracking-content">DELIVERY ADVICE Request Instruction from ORIGIN<span><?php echo $pick_time; ?></span></div>
+                                            <div class="tracking-date"><span><?php echo $Regisstration_D_T; ?></span></div>
+                                            <div class="tracking-content">DELIVERY ADVICE Request Instruction from ORIGIN<span><?php echo $Registration_Time; ?></span></div>
                                         </div>
                                         <div class="tracking-item">
                                             <div class="tracking-icon status-intransit">
@@ -225,8 +225,8 @@ extract($data);
                                                 </svg>
                                                 <!-- <i class="fas fa-shipping-fast"></i> -->
                                             </div>
-                                            <div class="tracking-date"><span><?php echo $pick_date; ?></span></div>
-                                            <div class="tracking-content">SHIPMENT IS OUT FOR DESPATCH <?php echo $cons_no; ?>.<span>AIDEN VAL  (SHIPPING  EXPRESS ),TO <?php echo $r_add; ?></span></div>
+                                            <div class="tracking-date"><span><?php echo $Regisstration_D_T; ?></span></div>
+                                            <div class="tracking-content">SHIPMENT IS OUT FOR DESPATCH <?php echo $cons_no; ?>.<span>AIDEN VAL  (SHIPPING  EXPRESS ),TO <?php echo $Receiver_address; ?></span></div>
                                         </div>
                                         <div class="tracking-item">
                                             <div class="tracking-icon status-outfordelivery">
@@ -273,20 +273,20 @@ extract($data);
                                                     <li>
                                                         <!--"_blank" tıklanan linkin yeni sekmede açılmasını sağlar.-->
                                                         <a target="_blank"style="color: #0c83e7">Reciever Info</a>
-                                                        <a href="#" class="float-right"><?php echo $pick_date; ?></a>
-                                                        <p class="article">><?php echo $rev_name; ?>
-                                                            <br>><?php echo $r_add; ?>
-                                                            <br>><?php echo $r_phone; ?>
+                                                        <a href="#" class="float-right"><?php echo $Regisstration_D_T; ?></a>
+                                                        <p class="article">><?php echo $Receiver_Name; ?>
+                                                            <br>><?php echo $Receiver_address; ?>
+                                                            <br>><?php echo $Receiver_Shippers_Contact; ?>
 
                                                         </p>
                                                     </li>
                                                     <hr>
                                                     <li>
                                                         <a style="color: #0c83e7; ">Sender info</a>
-                                                        <a  class="float-right"><?php echo $pick_date; ?></a>
-                                                        <p class="article">><?php echo $ship_name; ?>
-                                                            <br>><?php echo $s_add; ?>
-                                                            <br>><?php echo $phone; ?>
+                                                        <a  class="float-right"><?php echo $Regisstration_D_T; ?></a>
+                                                        <p class="article">><?php echo $Shipper_Name; ?>
+                                                            <br>><?php echo $Shipper_addresss; ?>
+                                                            <br>><?php echo $Shippers_Contact; ?>
 
                                                         </p>
                                                     </li>
@@ -327,7 +327,7 @@ extract($data);
                                                 <ul class="timeline">
                                                     <li>
 
-                                                        <a href="#" class="float-right"><?php echo $pick_date; ?></a>
+                                                        <a href="#" class="float-right"><?php echo $Regisstration_D_T; ?></a>
 
                                                     </li>
 
@@ -346,15 +346,15 @@ extract($data);
                                                     </tr>
                                                     <tr>
                                                         <td> Registration Date & Time</td>
-                                                        <td><?php echo $pick_date; ?></td>
+                                                        <td><?php echo $Regisstration_D_T; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Expected Arrrival Date & Time</td>
-                                                        <td><?php echo $freight; ?></td>
+                                                        <td><?php echo $Arrival_Time; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Departure Time </td>
-                                                        <td><?php echo $invice_no; ?></td>
+                                                        <td><?php echo $Departure_Time; ?></td>
                                                     </tr>
 
                                                     <tr>
@@ -372,7 +372,7 @@ extract($data);
 
                                                     <tr>
                                                         <td> Registration Office</td>
-                                                        <td><?php echo $pick_time; ?></td>
+                                                        <td><?php echo $Registration_Time; ?></td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -468,7 +468,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/62538bad7b967b117989f02c/1g0b5j8g1';
+s1.src='https://embed.tawk.to/62641efe7b967b11798c27a3/1g1bhi4q7';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);

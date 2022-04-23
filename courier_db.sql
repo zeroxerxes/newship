@@ -31,11 +31,11 @@ CREATE TABLE `tbl_courier` (
   `cid` int(10) NOT NULL,
   `cons_no` varchar(20) NOT NULL,
   `Shipper_Name` varchar(100) NOT NULL,
-  `phone` varchar(100) NOT NULL,
-  `ShippeReceiver_addressress` varchar(200) NOT NULL,
+  `Shippers_Contact` varchar(100) NOT NULL,
+  `Shipper_addresss` varchar(200) NOT NULL,
   `s_email` varchar(100) NOT NULL,
   `Receiver_Name` varchar(100) NOT NULL,
-  `Receiver_Phone` varchar(100) NOT NULL,
+  `Receiver_Shippers_Contact` varchar(100) NOT NULL,
   `Receiver_address` varchar(200) NOT NULL,
   `r_email` varchar(100) NOT NULL,
   `type` varchar(100) NOT NULL,
@@ -45,8 +45,8 @@ CREATE TABLE `tbl_courier` (
   `book_mode` varchar(20) NOT NULL,
   `Arrival_Time` varchar(100) NOT NULL,
   `mode` varchar(100) NOT NOT NULL,
-  `pick_date` varchar(100) NOT NOT NULL,
-  `pick_time` varchar(10) NOT NULL,
+  `Regisstration_D_T` varchar(100) NOT NOT NULL,
+  `Registration_Time` varchar(100) NOT NULL,
   `status` varchar(100) NOT NULL,
   `comments` varchar(250) NOT NOT NULL,
   `book_date` date NOT NULL
@@ -56,7 +56,7 @@ CREATE TABLE `tbl_courier` (
 -- Dumping data for table `tbl_courier`
 --
 
-INSERT INTO `tbl_courier` (`cid`, `cons_no`, `Shipper_Name`, `phone`, `ShippeReceiver_addressress`, `s_email`, `Receiver_Name`, `Receiver_Phone`, `Receiver_address`, `r_email`, `type`, `weight`, `Departure_Time`, `qty`, `book_mode`, `Arrival_Time`, `mode`, `pick_date`, `pick_time`, `status`, `comments`, `book_date`) VALUES
+INSERT INTO `tbl_courier` (`cid`, `cons_no`, `Shipper_Name`, `Shippers_Contact`, `Shipper_addresss`, `s_email`, `Receiver_Name`, `Receiver_Shippers_Contact`, `Receiver_address`, `r_email`, `type`, `weight`, `Departure_Time`, `qty`, `book_mode`, `Arrival_Time`, `mode`, `Regisstration_D_T`, `Registration_Time`, `status`, `comments`, `book_date`) VALUES
 (1, 'M22P7KHM', 'Tousif Khan', '020 253623', 's sd sdsd', 'brandonasah11@gmail.com', 'Rizwan Ahmed', '020 88552', 'sd sd s', 'brandonasah11@gmail.com', 'Parcel', 20, '252525', 12, 'TBB', 240, 'Road', '29/04/2018', '12', 'Delivered', 'ds ds d', '2018-01-26'),
 (2, 'QIWWGIQP', 'Asif khan', '020 253623', 'shani peth', 'brandonasah11@gmail.com', 'munna bhai', '020 88552', 'asdas das d', 'brandonasah11@gmail.com', 'Documents', 20, '252525', 12, 'TBB', 240, 'Train', '29/03/2018', '4', 'Delivered', 'Plz deliver it', '2018-02-28'),
 (3, 'Q906F73L', 'Amol sarode', '9484848445', 'metha nagar, bhusawal', 'brandonasah11@gmail.com', 'sunil pal', '8585425412', 'balliram peth', 'brandonasah11@gmail.com', 'Documents', 12, '239098', 12, 'ToPay', 200, 'Air', '26/01/2018', '4', 'Delivered', 'Thanks', '2018-01-20'),

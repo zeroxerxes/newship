@@ -4,7 +4,7 @@ require_once('database.php');
 require_once('library.php');
 isUser();
 
-$sql = "SELECT cid, cons_no, ship_name, rev_name, pick_date, pick_time, status
+$sql = "SELECT cid, cons_no, Shipper_Name, Receiver_Name, Regisstration_D_T, Registration_Time, status
 		FROM tbl_courier
 		WHERE status != 'Delivered' 
 		GROUP BY book_date
@@ -20,7 +20,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/62538bad7b967b117989f02c/1g0b5j8g1';
+s1.src='https://embed.tawk.to/62641efe7b967b11798c27a3/1g1bhi4q7';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
@@ -133,9 +133,9 @@ function confirmDel(field,msg)
 	  <img src="images/edit_icon.gif" border="0" height="20" width="20"></a>
 	  </td>
       <td class="gentxt"><?php echo $cons_no; ?></td>
-      <td class="gentxt"><?php echo $ship_name; ?></td>
-      <td class="gentxt"><?php echo $rev_name; ?></td>
-      <td class="gentxt"><?php echo $pick_date; ?> - <?php echo $pick_time; ?></td>
+      <td class="gentxt"><?php echo $Shipper_Name; ?></td>
+      <td class="gentxt"><?php echo $Receiver_Name; ?></td>
+      <td class="gentxt"><?php echo $Regisstration_D_T; ?> - <?php echo $Registration_Time; ?></td>
       <td class="gentxt"><?php echo $status; ?></td>
     </tr>
     <?php

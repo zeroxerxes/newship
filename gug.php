@@ -37,17 +37,17 @@
 
             <div class="hero__background hide--m lazyload"
                  data-bgset="
-                    img/slider/air-freight.jpg?anchor=center&amp;mode=crop&amp;width=2560&amp;height=1152&amp;upscale=false&amp;rnd=132460287498730000 2560w,
-        		    img/slider/air-freight.jpg?anchor=center&amp;mode=crop&amp;width=1920&amp;height=864&amp;upscale=false&amp;rnd=132460287498730000 1920w,
-        		    img/slider/air-freight.jpg?anchor=center&amp;mode=crop&amp;width=1600&amp;height=720&amp;upscale=false&amp;rnd=132460287498730000 1600w"
+                    img/slider/air-Arrival_Time.jpg?anchor=center&amp;mode=crop&amp;width=2560&amp;height=1152&amp;upscale=false&amp;rnd=132460287498730000 2560w,
+        		    img/slider/air-Arrival_Time.jpg?anchor=center&amp;mode=crop&amp;width=1920&amp;height=864&amp;upscale=false&amp;rnd=132460287498730000 1920w,
+        		    img/slider/air-Arrival_Time.jpg?anchor=center&amp;mode=crop&amp;width=1600&amp;height=720&amp;upscale=false&amp;rnd=132460287498730000 1600w"
                  data-sizes="auto">
             </div>
             <div class="hero__background show--m lazyload"
                  data-bgset="
-        		    img/slider/air-freight.jpg?anchor=center&amp;mode=crop&amp;width=1800&amp;height=2560&amp;upscale=false&amp;rnd=132460287498730000 1800w,
-        		    img/slider/air-freight.jpg?anchor=center&amp;mode=crop&amp;width=1440&amp;height=2048&amp;upscale=false&amp;rnd=132460287498730000 1440w,
-        		    img/slider/air-freight.jpg?anchor=center&amp;mode=crop&amp;width=1080&amp;height=1536&amp;upscale=false&amp;rnd=132460287498730000 1080w,
-        		    img/slider/air-freight.jpg?anchor=center&amp;mode=crop&amp;width=750&amp;height=1067&amp;upscale=false&amp;rnd=132460287498730000 750w"
+        		    img/slider/air-Arrival_Time.jpg?anchor=center&amp;mode=crop&amp;width=1800&amp;height=2560&amp;upscale=false&amp;rnd=132460287498730000 1800w,
+        		    img/slider/air-Arrival_Time.jpg?anchor=center&amp;mode=crop&amp;width=1440&amp;height=2048&amp;upscale=false&amp;rnd=132460287498730000 1440w,
+        		    img/slider/air-Arrival_Time.jpg?anchor=center&amp;mode=crop&amp;width=1080&amp;height=1536&amp;upscale=false&amp;rnd=132460287498730000 1080w,
+        		    img/slider/air-Arrival_Time.jpg?anchor=center&amp;mode=crop&amp;width=750&amp;height=1067&amp;upscale=false&amp;rnd=132460287498730000 750w"
                  data-sizes="auto">
             </div>
 

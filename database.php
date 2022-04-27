@@ -3,9 +3,9 @@
 
 // database connection config
 $dbHost = 'localhost';
-$dbUser = 'u574411944_Smash';
+$dbUser = 'u574411944_Bluesea';
 $dbPass = 'Talktome@123';
-$dbName = 'u574411944_sadia';
+$dbName = 'u574411944_Bluewater';
 
 $dbConn = mysqli_connect ($dbHost, $dbUser, $dbPass) or die ('MySQL connect failed. ' . mysqli_error($dbConn));
 mysqli_select_db($dbConn,$dbName) or die('Cannot select database. ' . mysqli_error($dbConn));

@@ -44,28 +44,14 @@ CREATE TABLE `tbl_courier` (
   `qty` int(10) NOT NULL,
   `book_mode` varchar(20) NOT NULL,
   `Arrival_Time` varchar(100) NOT NULL,
-  `mode` varchar(100) NOT NOT NULL,
-  `Regisstration_D_T` varchar(100) NOT NOT NULL,
+  `mode` varchar(100) NOT NULL,
+  `Regisstration_D_T` varchar(100) NOT NULL,
   `Registration_Time` varchar(100) NOT NULL,
   `status` varchar(100) NOT NULL,
-  `comments` varchar(250) NOT NOT NULL,
+  `comments` varchar(250) NOT NULL,
   `book_date` date NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `tbl_courier`
---
-
-INSERT INTO `tbl_courier` (`cid`, `cons_no`, `Shipper_Name`, `Shippers_Contact`, `Shipper_addresss`, `s_email`, `Receiver_Name`, `Receiver_Shippers_Contact`, `Receiver_address`, `r_email`, `type`, `weight`, `Departure_Time`, `qty`, `book_mode`, `Arrival_Time`, `mode`, `Regisstration_D_T`, `Registration_Time`, `status`, `comments`, `book_date`) VALUES
-(1, 'M22P7KHM', 'Tousif Khan', '020 253623', 's sd sdsd', 'brandonasah11@gmail.com', 'Rizwan Ahmed', '020 88552', 'sd sd s', 'brandonasah11@gmail.com', 'Parcel', 20, '252525', 12, 'TBB', 240, 'Road', '29/04/2018', '12', 'Delivered', 'ds ds d', '2018-01-26'),
-(2, 'QIWWGIQP', 'Asif khan', '020 253623', 'shani peth', 'brandonasah11@gmail.com', 'munna bhai', '020 88552', 'asdas das d', 'brandonasah11@gmail.com', 'Documents', 20, '252525', 12, 'TBB', 240, 'Train', '29/03/2018', '4', 'Delivered', 'Plz deliver it', '2018-02-28'),
-(3, 'Q906F73L', 'Amol sarode', '9484848445', 'metha nagar, bhusawal', 'brandonasah11@gmail.com', 'sunil pal', '8585425412', 'balliram peth', 'brandonasah11@gmail.com', 'Documents', 12, '239098', 12, 'ToPay', 200, 'Air', '26/01/2018', '4', 'Delivered', 'Thanks', '2018-01-20'),
-(4, '2THBV8UM', 'Farzana Sk', '9532685965', 'xzyz', 'brandonasah11@gmail.com', 'Asif Khan', '9852451254', 'ABC', 'brandonasah11@gmail.com', 'Parcel', 2, '23788', 4, 'Paid', 90, 'Road', '20/01/2018', '12', 'Delivered', 'Plz transit', '2018-01-15'),
-(5, 'H374ZTGO', 'saleem', '8954335576', 'lucknow aliganj', 'brandonasah11@gmail.com', 'shyam', '8954335576', 'delhi', 'brandonasah11@gmail.com', 'Documents', 2, '22532', 1, 'Paid', 500, 'Air', '29/04/2018', '04:16pm', 'Landed', 'fast', '2018-04-29');
-
---
--- Indexes for dumped tables
---
 
 --
 -- Indexes for table `tbl_courier`

@@ -353,7 +353,7 @@ extract($data);
                                                         <td><?php echo $Arrival_Time; ?></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Departure Time </td>
+                                                        <td>Pick-up Time </td>
                                                         <td><?php echo $Departure_Time; ?></td>
                                                     </tr>
 
@@ -363,15 +363,15 @@ extract($data);
                                                     </tr>
                                                     <tr>
                                                         <td>Weight</td>
-                                                        <td><?php echo $weight; ?>(Pound)</td>
+                                                        <td><?php echo $weight; ?></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Mode</td>
+                                                        <td>Shipment Mode</td>
                                                         <td><?php echo $mode; ?></td>
                                                     </tr>
 
                                                     <tr>
-                                                        <td> Registration Office</td>
+                                                        <td>Origin</td>
                                                         <td><?php echo $Registration_Time; ?></td>
                                                     </tr>
                                                     </tbody>

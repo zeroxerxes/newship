@@ -356,10 +356,9 @@ function getSelected(opt)
       </tr>
       <tr>
         <td><table class="Partext1" cellpadding="2" cellspacing="2" align="center" width="100%">
-          <tbody><tr>
-            <td colspan="3" class="TrackMediumBlue" align="right"><div class="gentxt" align="right">
-                <div class="headtext13" align="left"><strong>Shipper info : </strong></div>
-            </div></td>
+          <tbody>
+              <tr>
+            <td colspan="3" class="TrackMediumBlue" align="right"><div class="headtext13" align="left"><strong>Shipper  info : </strong></div></td>
           </tr>
           <tr>
             <td class="TrackMediumBlue" align="right" width="138">Shipper Name   :</td>
@@ -395,7 +394,7 @@ function getSelected(opt)
                 <span class="REDLink">*</span></td>
           </tr>
           <tr>
-            <td class="TrackMediumBlue" align="right">Shippers_Contact : </td>
+            <td class="TrackMediumBlue" align="right">Receiver_Contact : </td>
             <td>&nbsp;</td>
             <td><input name="ReceiverShippers_Contact" id="ReceiverShippers_Contact" maxlength="100" size="40" type="TEXT"></td>
           </tr>
@@ -441,7 +440,7 @@ function getSelected(opt)
               </td>
           </tr>
           <tr>
-            <td class="TrackMediumBlue" align="right">Take Of Time</td>
+            <td class="TrackMediumBlue" align="right">Pick-up Time</td>
             <td>&nbsp;</td>
             <td><input name="Invoiceno" id="Invoiceno" size="60" maxlength="20" onKeyUp="check_Shippers_Contact('Invoiceno')" type="TEXT"></td>
           </tr>
@@ -465,13 +464,13 @@ function getSelected(opt)
             <td><input type="text"id="TotalArrival_Time" size="255" maxlength="255" name="TotalArrival_Time"></td>
           </tr>
           <tr>
-            <td class="TrackMediumBlue" align="right">Mode : </td>
+            <td class="TrackMediumBlue" align="right">Shipment Mode : </td>
             <td>&nbsp;</td>
             <td><select class="select"name="Mode" id="Mode">
-                <option selected="selected" value="Air">Air</option>
-                <option value="Road">Road</option>
-                <option value="Train">Train</option>
-				<option value="Sea">Sea</option>
+                <option selected="selected" value="Air Freight">Air Freight</option>
+                <option value="Road Freight">Road Freight</option>
+                <option value="Train Freight">Train Freight</option>
+				<option value="Sea Freight">Sea Freight</option>
             </select></td>
           </tr>
           <tr>
@@ -483,18 +482,18 @@ function getSelected(opt)
 
 
           <tr>
-            <td class="TrackNormalBlue" align="right">Registration Date & Time </td>
+            <td class="TrackNormalBlue" style="color:red;" align="right">Registration Date & Time </td>
             <td>&nbsp;</td>
             <td><input name="Packupdate" id="Packupdate"  maxlength="200" type="TEXT">
 
           </tr>
           <tr>
-            <td class="TrackNormalBlue" align="right" valign="top">Office Of Registratio</td>
+            <td class="TrackNormalBlue" style="color:red;" align="right" valign="top">Origin</td>
             <td>&nbsp;</td>
             <td><input name="Pickuptime" id="Pickuptime" maxlength="50" size="40" type="TEXT"></td>
           </tr>
           <tr>
-            <td class="TrackNormalBlue" align="right" valign="top">Status :</td>
+            <td class="TrackNormalBlue" style="color:red;" align="right" valign="top">Status :</td>
             <td>&nbsp;</td>
             <td><select class="select"name="status" id="status">
                 <option selected="selected" value="In Transit">In Transit</option>
@@ -502,7 +501,7 @@ function getSelected(opt)
             </select></td>
           </tr>
           <tr>
-            <td class="TrackNormalBlue" align="right" valign="top">Comments :</td>
+            <td class="TrackNormalBlue" style="color:red;" align="right" valign="top">Comments :</td>
             <td>&nbsp;</td>
             <td><textarea class="select" name="Comments" cols="40" rows="4" id="Comments"></textarea></td>
           </tr>

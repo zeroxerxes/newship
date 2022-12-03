@@ -492,3 +492,12 @@
 .galleria-theme-twelve .galleria-info > *, .galleria-theme-twelve .galleria-info-text > * {
     display: inline;
 }
+.office-info__phone-label{
+	display: none;
+}
+.office-info__fax{
+	display: :none;
+}
+.office-info__fax{
+	display:none;
+}

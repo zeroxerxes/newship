@@ -4,7 +4,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from www.bws.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 08:02:45 GMT -->
+<!-- Mirrored from www.bwscargo.online/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 08:02:45 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <!--Start of Tawk.to Script-->
@@ -174,7 +174,7 @@ s0.parentNode.insertBefore(s1,s0);
     <meta property="og:title" content="Transport and logistics services worldwide | Blue Water Shipping" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="If you need any kind of transport, logistics or Arrival_Time service our experts will create a solution for your market, your products and your needs." />
-    <meta property="og:url" content="https://www.bws.net/">
+    <meta property="og:url" content="https://www.bwscargo.online/">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Transport and logistics services worldwide | Blue Water Shipping">
     <meta name="twitter:description" content="If you need any kind of transport, logistics or Arrival_Time service our experts will create a solution for your market, your products and your needs.">

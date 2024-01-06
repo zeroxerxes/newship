@@ -258,7 +258,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Blue Water Shipping",
-        "url": "https://www.bws.net/",
+        "url": "https://www.bwscargo.online/",
         "logo": "",
         "foundingDate": "",
         "founders": {
@@ -299,5 +299,5 @@
 </body>
 
 
-<!-- Mirrored from www.bws.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 08:03:04 GMT -->
+<!-- Mirrored from www.bwscargo.online/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 08:03:04 GMT -->
 </html>
